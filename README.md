@@ -11,6 +11,6 @@ Patients were classified into 6 "general disorder" categories, including: Schizo
   Diagram:
 </h2>
 
-<h2 align="center">
-   <img src="(https://macithemoose.github.io/Models-for-Diagnosing-PTSD/conceptMap.svg)" alt="My SVG" width="300">
-</h2>
+<div align="center">
+  <img src="https://macithemoose.github.io/Models-for-Diagnosing-PTSD/conceptMap.svg" alt="diagram" width=600 height=700>
+</div>
