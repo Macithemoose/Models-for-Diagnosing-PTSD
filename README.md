@@ -12,5 +12,20 @@ Patients were classified into 6 "general disorder" categories, including: Schizo
 </h2>
 
 <div align="center">
-  <img src="https://macithemoose.github.io/Models-for-Diagnosing-PTSD/conceptMap.svg" alt="diagram" width=600 height=700>
+  <img src="https://macithemoose.github.io/Models-for-Diagnosing-PTSD/Figures_and_Images/conceptMap.svg" alt="diagram" width=600 height=700>
 </div>
+
+<h2>
+  Looking at the actual data:
+</h2>
+
+After collecting EEG data, the signals were transformed from the time domain into the frequency domain using the Fast Fourier Transform method. In the actual dataset, the columns that include "AB" signify the absolute power values from taking the Fast Fourier Transform.
+
+Data that contains artifacts such as eye blinks, power line interference, or other potential noise-creating events were removed. The data was split into six major frequencies: delta (1-4 Hz), theta (4-8 Hz), alpha (8 - 12 Hz), beta (12 - 25 Hz), high beta (25 - 30 Hz), and gamma (30 - 40 Hz).
+
+The coherence values between the 19 major electrodes, or synchronicity between each electrode, was also calculated as a way of maintaining spatial relationships between different regions of the brain. These were also included in the data.
+
+The following is a representation of what the data looks like in a table:
+![Image](https://macithemoose.github.io/Models-for-Diagnosing-PTSD/Figures_and_Images/eeg_data_table.png)
+
+
