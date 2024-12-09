@@ -26,6 +26,6 @@ Data that contains artifacts such as eye blinks, power line interference, or oth
 The coherence values between the 19 major electrodes, or synchronicity between each electrode, was also calculated as a way of maintaining spatial relationships between different regions of the brain. These were also included in the data.
 
 The following is a representation of what the data looks like in a table:
-![Image](https://macithemoose.github.io/Models-for-Diagnosing-PTSD/Figures_and_Images/eeg_data_table.png)
+![Image](https://macithemoose.github.io/Models-for-Diagnosing-PTSD/Figures_and_Images/eeg_data_table.jpg)
 
 
